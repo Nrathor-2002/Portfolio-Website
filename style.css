@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color: rgb(150, 157, 157);
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+section {
+    padding: 0px 50px;
+}
+
+#home {
+    background-color: #efe9e9;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+img {
+    margin-left: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#intro {
+    background-color: #fff;
+}
+
+#skills {
+    background-color: #efe9e9;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+div {
+    padding: 10px 50px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border-radius: 5px;
+    width: 23vw;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+
+.btn{
+    padding: 10px 12px;
+    border-radius: 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 5px 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+footer {
+    background-color: #efe9e9;
+    padding: 5px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  footer p a:hover {
+    color: #efe9e9;
+  }
+  
+  @media (max-width: 768px) {
+    footer p {
+      margin-bottom: 0;
+    }
+  }
+  
